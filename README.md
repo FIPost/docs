@@ -1,4 +1,4 @@
-![ipost-logo](./assets/logo.png)
+![ipost-logo](./assets/logo-name.png)
 # Documentation | Fontys Internal Post
 
 
