@@ -28,8 +28,6 @@ git clone https://git.fhict.nl/ipost/ui
 git clone https://git.fhict.nl/ipost/track-and-trace-ui
 ```
 
-```ps
-
 ## Bijdragen?
 Op dit moment wordt dit project onwikkeld door G4-IPost groep. Mocht je interesse hebben om mee te helpen kun je dit laten weten aan een van de ontwikkelaars.
 
