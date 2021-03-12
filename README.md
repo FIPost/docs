@@ -19,13 +19,14 @@ Dit project maakt deel uit van een pilot en moet op de lange termijn worden ontw
 # zsh
 
 mkdir ipost && cd ipost
-git clone https://git.fhict.nl/I418126/ipost-userservice
-git clone https://git.fhict.nl/I418126/ipost-personeelsservice
-git clone https://git.fhict.nl/I418126/ipost-locatieservice
-git clone https://git.fhict.nl/I418126/ipost-pakketservice
-git clone https://git.fhict.nl/I418126/ipost-pakketservice
-git clone https://git.fhict.nl/I418126/ipost-ui
-git clone https://git.fhict.nl/I418126/ipost-track-and-trace-ui
+git clone https://git.fhict.nl/ipost/userservice
+git clone https://git.fhict.nl/ipost/userservice
+git clone https://git.fhict.nl/ipost/personeelsservice
+git clone https://git.fhict.nl/ipost/locatieservice
+git clone https://git.fhict.nl/ipost/pakketservice
+git clone https://git.fhict.nl/ipost/pakketservice
+git clone https://git.fhict.nl/ipost/ui
+git clone https://git.fhict.nl/ipost/track-and-trace-ui
 ```
 
 ## Bijdragen?
