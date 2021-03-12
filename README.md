@@ -33,12 +33,12 @@ Op dit moment wordt dit project onwikkeld door G4-IPost groep. Mocht je interess
 
 | Naam | Email |
 | ------ | ------ |
-| Aron Heesakkers | 418126@student.fontys.nl|
+| Aron Heesakkers | 418126@student.fontys.nl.  |
 | Jaap van der Meer | 405273@student.fontys.nl |
-| Sverre van Gompel |  |
-| Sjors Scholten | 361483@student.fontys.nl |
-| Kevin Wieling | |
-| Robin Witte | 399366@student.fontys.nl |
+| Sverre van Gompel | 403979@student.fontys.nl |
+| Sjors Scholten | 361483@student.fontys.nl    |
+| Kevin Wieling | 359356@student.fontys.nl.    |
+| Robin Witte | 399366@student.fontys.nl       |
 
 ## Stakeholders
 
