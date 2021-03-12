@@ -29,6 +29,20 @@ git clone https://git.fhict.nl/ipost/ui
 git clone https://git.fhict.nl/ipost/track-and-trace-ui
 ```
 
+```ps
+# Powershell
+
+mkdir ipost -and cd ipost
+git clone https://git.fhict.nl/ipost/userservice
+git clone https://git.fhict.nl/ipost/userservice
+git clone https://git.fhict.nl/ipost/personeelsservice
+git clone https://git.fhict.nl/ipost/locatieservice
+git clone https://git.fhict.nl/ipost/pakketservice
+git clone https://git.fhict.nl/ipost/pakketservice
+git clone https://git.fhict.nl/ipost/ui
+git clone https://git.fhict.nl/ipost/track-and-trace-ui
+```
+
 ## Bijdragen?
 Op dit moment wordt dit project onwikkeld door G4-IPost groep. Mocht je interesse hebben om mee te helpen kun je dit laten weten aan een van de ontwikkelaars.
 
