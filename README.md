@@ -46,8 +46,9 @@ Op dit moment wordt dit project onwikkeld door G4-IPost groep. Mocht je interess
 | ------ | ------ |
 | Jacques De Roij | Product Owner en contactpersoon tussen het softwareteam en de eindgebruikers. |
 | Patrick de Beer | Coördinator van de softwarestroming van FHICT. Is verantwoordelijk voor langlopende projecten binnen Fontys. |
-| Simon Bergmans S.P.C.G. | Postverwerker en eindgebruiker van het systeem. Simon is coördinator van Fontys Tilburg. |
-| Levent Önder | Postverwerker en eindgebruiker van het systeem. Levent is verantwoordelijk voor P1 gebouw (7 instituten met meer dan 5000 personen). |
+| Simon Bergmans S.P.C.G. | Leidinggevende van de Facilitaire Dienst van Fontys Tilburg |
+| Levent Önder | Medewerker bij de Facilitaire Dienst van Fontys Stappengoor |
+| Adri |  |
 
 ## License
 
