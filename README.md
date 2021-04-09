@@ -1,18 +1,47 @@
 ![ipost-logo](./assets/logo-name.png)
 # Documentation | Fontys Internal Post
 
+This project aims to modernise the internal post system of Fontys. Currently most of the administrative work is done manually. This project moves these processes to a semi-automated system with similar functionalities as PostNL. Some of the features include: seeing a package status and tracing locations.
 
-Dit project beoogt het interne post-systeem van de hele Fontys te moderniseren. Op dit moment wordt dit veelal handmatig gedaan. Het doel is dit te verplaatsen naar een systeem dat vergelijkbare functies heeft als een systeem van PostNL. Mogelijkheden die het systeem zou kunnen hebben is dat het op elk moment mogelijk moet zijn te zien wat de status is van een intern stuk post en waar het zich bevindt in de organisatie.
-Let hierbij op dat deze opdracht zich niet alleen strekt tot de FHICT, maar de gehele organisatie met meer dan 4300 werknemers en 44.000 studenten.
-Dit project maakt deel uit van een pilot en moet op de lange termijn worden ontwikkeld. Dit betekent dat de projectontwikkeling kan worden doorgezet op de langere termijn. De overdraagbaarheid van dit project is een must.
+Keep in mind that this project is broader than just the FHICT. The software made will need to scale to manage the administrative post process of the entire Fontys organisation with over 4300 employees and 44.000 students.
 
-## Gerelateerde projecten
-- [ipost-userservice](https://git.fhict.nl/I418126/ipost-userservice) - Authenticatie voor Fontys medewerkers.
-- [ipost-personeelsservice](https://git.fhict.nl/I418126/ipost-personeelsservice) - Email-adressen en namen van Fontys accounts.
-- [ipost-locatieservice](https://git.fhict.nl/I418126/ipost-locatieservice) - Fontys afhaalpunten voor post.
-- [ipost-pakketservice](https://git.fhict.nl/I418126/ipost-pakketservice) - Pakketinformatie.
-- [ipost-ui](https://git.fhict.nl/I418126/ipost-ui) - Front-end voor het logistieke proces.
-- [ipost-track-and-trace-ui)](https://git.fhict.nl/I418126/ipost-track-and-trace-ui) - Front-end voor Track & Trace ontvanger.
+This project is part of a long term pilot and is supposed to be developed over multiple semesters by different PT groups of software students. Transferability is therefore a must.
+<br/><br/>
+[DeX](https://dex.software/project/details/119-Fontys-Internal-Post)
+
+## Collaboration
+Currently this project is being developed by semester 6 software students of the FHICT. Because this project is larger than most and should end up in production, it is important that everything is well documented. Even though the project will be managed by PT groups, every bit of help is appreciated and everyone who is willing to help out is welcome.
+
+### Project Management
+The project is being developed with an Agile proces. We work in sprints of three weeks in which we deliver User Stories. These are decided in accordance with the Product Owner. The User Stories itself are written from the perspective of the user and mostly contain functionality in a vertical line from front- to backend. To manage this proces we use Azure Boards (IPost Azure DevOps Organisatie).
+
+### Code
+This project is designed with a microservices architecture. This allows us to scale our software to support a large user base. To separate all concerns and keep the repositories SOLID each domain has been given each own codebase with its own repository. At the moment our code is being transported from our Gitlab to Github.
+
+Reason for this change is to encourage open source contributions.
+
+### Repositories
+- [ui](https://git.fhict.nl/I418126/ipost-userservice)
+- [track-and-trace-ui ](https://git.fhict.nl/I418126/ipost-personeelsservice)
+- [gateway](https://git.fhict.nl/I418126/ipost-locatieservice)
+- [pakketservice](https://git.fhict.nl/I418126/ipost-pakketservice)
+- [locatieservice](https://git.fhict.nl/I418126/ipost-ui)
+- [docs)](https://git.fhict.nl/I418126/ipost-track-and-trace-ui)
+
+### Architectural Styles
+- Architectural Styles
+- Microservices
+- Event Streaming
+- Serverless
+
+### Languages & Frameworks
+- .NET CORE - C#
+- VueJS - TypeScript, JavaScript, SCSS, HTML
+
+### Deployment
+- Docker
+- MicroK8s
+- Ubuntu 20.02 Linux
 
 ## Getting started
 ```zsh
@@ -28,9 +57,8 @@ git clone https://git.fhict.nl/ipost/ui
 git clone https://git.fhict.nl/ipost/track-and-trace-ui
 ```
 
-## Bijdragen?
-Op dit moment wordt dit project onwikkeld door G4-IPost groep. Mocht je interesse hebben om mee te helpen kun je dit laten weten aan een van de ontwikkelaars.
-
+## Contact
+### Developers
 | Naam | Email |
 | ------ | ------ |
 | Aron Heesakkers | 418126@student.fontys.nl.  |
@@ -40,7 +68,7 @@ Op dit moment wordt dit project onwikkeld door G4-IPost groep. Mocht je interess
 | Kevin Wieling | 359356@student.fontys.nl.    |
 | Robin Witte | 399366@student.fontys.nl       |
 
-## Stakeholders
+### Stakeholders
 
 | Naam | Functie |
 | ------ | ------ |
@@ -48,8 +76,3 @@ Op dit moment wordt dit project onwikkeld door G4-IPost groep. Mocht je interess
 | Patrick de Beer | Coördinator van de softwarestroming van FHICT. Is verantwoordelijk voor langlopende projecten binnen Fontys. |
 | Simon Bergmans S.P.C.G. | Leidinggevende van de Facilitaire Dienst van Fontys Tilburg |
 | Levent Önder | Medewerker bij de Facilitaire Dienst van Fontys Stappengoor |
-| Adri |  |
-
-## License
-
-## FAQ
