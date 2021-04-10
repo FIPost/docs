@@ -76,3 +76,7 @@ git clone https://git.fhict.nl/ipost/track-and-trace-ui
 | Patrick de Beer | Coördinator van de softwarestroming van FHICT. Is verantwoordelijk voor langlopende projecten binnen Fontys. |
 | Simon Bergmans S.P.C.G. | Leidinggevende van de Facilitaire Dienst van Fontys Tilburg |
 | Levent Önder | Medewerker bij de Facilitaire Dienst van Fontys Stappengoor |
+
+
+### LICENSE
+[Needs license]
