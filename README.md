@@ -1,5 +1,13 @@
 ![ipost-logo](./assets/logo-name.png)
-# Documentation | Fontys Internal Post
+<h3 align="middle">
+  <a href="https://github.com/FIPost/docs">Documentation</a>
+  <a>•</a>
+  <a href="https://github.com/FIPost/docs/CONTRIBUTING.md">Contributing</a>
+  <a>•</a>
+  <a href="https://github.com/FIPost/docs/CONTRIBUTING.md">Contact</a>
+</h3>
+
+# Fontys Internal Post
 
 This project aims to modernise the internal post system of Fontys. Currently most of the administrative work is done manually. This project moves these processes to a semi-automated system with similar functionalities as PostNL. Some of the features include: seeing a package status and tracing locations.
 
@@ -10,6 +18,7 @@ This project is part of a long term pilot and is supposed to be developed over m
 [DeX](https://dex.software/project/details/119-Fontys-Internal-Post)
 
 ## Collaboration
+
 Currently this project is being developed by semester 6 software students of the FHICT. Because this project is larger than most and should end up in production, it is important that everything is well documented. Even though the project will be managed by PT groups, every bit of help is appreciated and everyone who is willing to help out is welcome.
 
 ### Project Management
@@ -20,13 +29,15 @@ This project is designed with a microservices architecture. This allows us to sc
 
 Reason for this change is to encourage open source contributions.
 
+Check [CONTRIBUTING](https://github.com/FIPost/track-and-trace-ui/blob/master/CONTRIBUTING.md) for information.
+
 ### Repositories
-- [ui](https://git.fhict.nl/I418126/ipost-userservice)
-- [track-and-trace-ui ](https://git.fhict.nl/I418126/ipost-personeelsservice)
-- [gateway](https://git.fhict.nl/I418126/ipost-locatieservice)
-- [pakketservice](https://git.fhict.nl/I418126/ipost-pakketservice)
-- [locatieservice](https://git.fhict.nl/I418126/ipost-ui)
-- [docs)](https://git.fhict.nl/I418126/ipost-track-and-trace-ui)
+- [ui](https://github.com/I418126/ipost-userservice)
+- [track-and-trace-ui ](https://github.com/I418126/ipost-personeelsservice)
+- [gateway](https://github.com/I418126/ipost-locatieservice)
+- [pakketservice](https://github.com/I418126/ipost-pakketservice)
+- [locatieservice](https://github.com/I418126/ipost-ui)
+- [docs)](https://github.com/I418126/ipost-track-and-trace-ui)
 
 ### Architectural Styles
 - Architectural Styles
@@ -48,13 +59,13 @@ Reason for this change is to encourage open source contributions.
 # Zsh, Bash or Git Bash for Windows
 
 mkdir ipost && cd ipost
-git clone https://git.fhict.nl/ipost/docs
-git clone https://git.fhict.nl/ipost/userservice
-git clone https://git.fhict.nl/ipost/personeelsservice
-git clone https://git.fhict.nl/ipost/locatieservice
-git clone https://git.fhict.nl/ipost/pakketservice
-git clone https://git.fhict.nl/ipost/ui
-git clone https://git.fhict.nl/ipost/track-and-trace-ui
+git clone https://github.com/FIPost/docs.git
+git clone https://github.com/FIPost/userservice.git
+git clone https://github.com/FIPost/personeelsservice.git
+git clone https://github.com/FIPost/locatieservice.git
+git clone https://github.com/FIPost/pakketservice.git
+git clone https://github.com/FIPost/ui.git
+git clone https://github.com/FIPost/track-and-trace-ui.git
 ```
 
 ## Contact
