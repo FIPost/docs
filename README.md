@@ -83,13 +83,7 @@ git clone https://github.com/FIPost/track-and-trace-ui.git
 
 | Naam | Functie |
 | ------ | ------ |
-| Jacques De Roij | Product Owner en contactpersoon tussen het softwareteam en de eindgebruikers. |
-| Patrick de Beer | Coördinator van de softwarestroming van FHICT. Is verantwoordelijk voor langlopende projecten binnen Fontys. |
-| Simon Bergmans S.P.C.G. | Leidinggevende van de Facilitaire Dienst van Fontys Tilburg |
-| Levent Önder | Medewerker bij de Facilitaire Dienst van Fontys Stappengoor |
-
-
-### LICENSE
-[Needs license]
-
-[With new branch]
+| Jacques De Roij | Product Owner |
+| Patrick de Beer | Coördinator of FHICT Software |
+| Simon Bergmans S.P.C.G. | Head of Facicility Services Fontys |
+| Levent Önder | Facility Services Personnel |
