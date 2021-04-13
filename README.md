@@ -4,7 +4,7 @@
   <a>•</a>
   <a href="https://github.com/FIPost/docs/blob/contributing/CONTRIBUTING.md">Contributing</a>
   <a>•</a>
-  <a href="">Contact</a>
+  <a href="https://github.com/FIPost/docs/blob/contributing/CONTACT.md">Contact</a>
 </h3>
 
 # Fontys Internal Post
@@ -21,15 +21,12 @@ This project is part of a long term pilot and is supposed to be developed over m
 
 Currently this project is being developed by semester 6 software students of the FHICT. Because this project is larger than most and should end up in production, it is important that everything is well documented. Even though the project will be managed by PT groups, every bit of help is appreciated and everyone who is willing to help out is welcome.
 
-### Project Management
-The project is being developed with an Agile proces. We work in sprints of three weeks in which we deliver User Stories. These are decided in accordance with the Product Owner. The User Stories itself are written from the perspective of the user and mostly contain functionality in a vertical line from front- to backend. To manage this proces we use Azure Boards (IPost Azure DevOps Organisatie).
+Check [CONTRIBUTING](https://github.com/FIPost/track-and-trace-ui/blob/master/CONTRIBUTING.md) for information.
 
-### Code
-This project is designed with a microservices architecture. This allows us to scale our software to support a large user base. To separate all concerns and keep the repositories SOLID each domain has been given each own codebase with its own repository. At the moment our code is being transported from our Gitlab to Github.
+## Code
+This project is designed with a microservices architecture. This allows us to scale our software to support a large user base. To separate all concerns and keep the repositories SOLID each domain has been given each own codebase with its own repository.
 
 Reason for this change is to encourage open source contributions.
-
-Check [CONTRIBUTING](https://github.com/FIPost/track-and-trace-ui/blob/master/CONTRIBUTING.md) for information.
 
 ### Repositories
 - [ui](https://github.com/I418126/ipost-userservice)
@@ -39,17 +36,17 @@ Check [CONTRIBUTING](https://github.com/FIPost/track-and-trace-ui/blob/master/CO
 - [locatieservice](https://github.com/I418126/ipost-ui)
 - [docs)](https://github.com/I418126/ipost-track-and-trace-ui)
 
-### Architectural Styles
+#### Architectural Styles
 - Architectural Styles
 - Microservices
 - Event Streaming
 - Serverless
 
-### Languages & Frameworks
+#### Languages & Frameworks
 - .NET CORE - C#
 - VueJS - TypeScript, JavaScript, SCSS, HTML
 
-### Deployment
+#### Deployment
 - Docker
 - MicroK8s
 - Ubuntu 20.02 Linux
@@ -68,22 +65,8 @@ git clone https://github.com/FIPost/ui.git
 git clone https://github.com/FIPost/track-and-trace-ui.git
 ```
 
-## Contact
-### Developers
-| Naam | Email |
-| ------ | ------ |
-| Aron Heesakkers | 418126@student.fontys.nl.  |
-| Jaap van der Meer | 405273@student.fontys.nl |
-| Sverre van Gompel | 403979@student.fontys.nl |
-| Sjors Scholten | 361483@student.fontys.nl    |
-| Kevin Wieling | 359356@student.fontys.nl.    |
-| Robin Witte | 399366@student.fontys.nl       |
+#### Ready?! 
+Start contributing [<ins>now</ins>](https://github.com/FIPost/track-and-trace-ui/blob/master/CONTRIBUTING.md) ! 
 
-### Stakeholders
-
-| Naam | Functie |
-| ------ | ------ |
-| Jacques De Roij | Product Owner |
-| Patrick de Beer | Coördinator of FHICT Software |
-| Simon Bergmans S.P.C.G. | Head of Facicility Services Fontys |
-| Levent Önder | Facility Services Personnel |
+## Contact Us ✉️ 
+Questions? [<ins>Contact us here </ins>](./assets/CONTACT.md) !
