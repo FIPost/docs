@@ -70,12 +70,3 @@ Start contributing [<ins>now</ins>](https://github.com/FIPost/track-and-trace-ui
 
 ## Contact Us ✉️ 
 Questions? [<ins>Contact us here </ins>](./assets/CONTACT.md) !
-=======
-git clone https://github.com/FIPost/docs
-git clone https://github.com/FIPost/userservice
-git clone https://github.com/FIPost/personeelsservice
-git clone https://github.com/FIPost/locatieservice
-git clone https://github.com/FIPost/pakketservice
-git clone https://github.com/FIPost/ui
-git clone https://github.com/FIPost/track-and-trace-ui
-```
