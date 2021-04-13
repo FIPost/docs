@@ -48,37 +48,11 @@ Reason for this change is to encourage open source contributions.
 # Zsh, Bash or Git Bash for Windows
 
 mkdir ipost && cd ipost
-git clone https://git.fhict.nl/ipost/docs
-git clone https://git.fhict.nl/ipost/userservice
-git clone https://git.fhict.nl/ipost/personeelsservice
-git clone https://git.fhict.nl/ipost/locatieservice
-git clone https://git.fhict.nl/ipost/pakketservice
-git clone https://git.fhict.nl/ipost/ui
-git clone https://git.fhict.nl/ipost/track-and-trace-ui
+git clone https://github.com/FIPost/docs
+git clone https://github.com/FIPost/userservice
+git clone https://github.com/FIPost/personeelsservice
+git clone https://github.com/FIPost/locatieservice
+git clone https://github.com/FIPost/pakketservice
+git clone https://github.com/FIPost/ui
+git clone https://github.com/FIPost/track-and-trace-ui
 ```
-
-## Contact
-### Developers
-| Naam | Email |
-| ------ | ------ |
-| Aron Heesakkers | 418126@student.fontys.nl.  |
-| Jaap van der Meer | 405273@student.fontys.nl |
-| Sverre van Gompel | 403979@student.fontys.nl |
-| Sjors Scholten | 361483@student.fontys.nl    |
-| Kevin Wieling | 359356@student.fontys.nl.    |
-| Robin Witte | 399366@student.fontys.nl       |
-
-### Stakeholders
-
-| Naam | Functie |
-| ------ | ------ |
-| Jacques De Roij | Product Owner en contactpersoon tussen het softwareteam en de eindgebruikers. |
-| Patrick de Beer | Coördinator van de softwarestroming van FHICT. Is verantwoordelijk voor langlopende projecten binnen Fontys. |
-| Simon Bergmans S.P.C.G. | Leidinggevende van de Facilitaire Dienst van Fontys Tilburg |
-| Levent Önder | Medewerker bij de Facilitaire Dienst van Fontys Stappengoor |
-
-
-### LICENSE
-[Needs license]
-
-[With new branch]
