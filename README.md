@@ -2,9 +2,9 @@
 <h3 align="middle">
   <a href="https://github.com/FIPost/docs">Documentation</a>
   <a>•</a>
-  <a href="https://github.com/FIPost/docs/CONTRIBUTING.md">Contributing</a>
+  <a href="https://github.com/FIPost/docs/blob/contributing/CONTRIBUTING.md">Contributing</a>
   <a>•</a>
-  <a href="https://github.com/FIPost/docs/CONTRIBUTING.md">Contact</a>
+  <a href="">Contact</a>
 </h3>
 
 # Fontys Internal Post
