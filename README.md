@@ -21,7 +21,7 @@ This project is part of a long term pilot and is supposed to be developed over m
 
 Currently this project is being developed by semester 6 software students of the FHICT. Because this project is larger than most and should end up in production, it is important that everything is well documented. Even though the project will be managed by PT groups, every bit of help is appreciated and everyone who is willing to help out is welcome.
 
-Check [CONTRIBUTING](https://github.com/FIPost/track-and-trace-ui/blob/master/CONTRIBUTING.md) for information.
+Check [CONTRIBUTING](https://github.com/FIPost/docs/blob/master/CONTRIBUTING.md) for information.
 
 ## Code
 This project is designed with a microservices architecture. This allows us to scale our software to support a large user base. To separate all concerns and keep the repositories SOLID each domain has been given each own codebase with its own repository.
@@ -66,7 +66,7 @@ git clone https://github.com/FIPost/track-and-trace-ui.git
 ```
 
 #### Ready?! 
-Start contributing [<ins>now</ins>](https://github.com/FIPost/track-and-trace-ui/blob/master/CONTRIBUTING.md) ! 
+Start contributing [<ins>now</ins>](https://github.com/FIPost/docs/blob/master/CONTRIBUTING.md) ! 
 
 ## Contact Us ✉️ 
-Questions? [<ins>Contact us here </ins>](./assets/CONTACT.md) !
+Questions? [<ins>Contact us here </ins>](https://github.com/FIPost/docs/blob/contributing/CONTACT.md) !
