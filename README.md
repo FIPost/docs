@@ -2,9 +2,9 @@
 <h3 align="middle">
   <a href="https://github.com/FIPost/docs">Documentation</a>
   <a>•</a>
-  <a href="https://github.com/FIPost/docs/blob/contributing/CONTRIBUTING.md">Contributing</a>
+  <a href="https://github.com/FIPost/docs/blob/master/CONTRIBUTING.md">Contributing</a>
   <a>•</a>
-  <a href="https://github.com/FIPost/docs/blob/contributing/CONTACT.md">Contact</a>
+  <a href="https://github.com/FIPost/docs/blob/master/CONTACT.md">Contact</a>
 </h3>
 
 # Fontys Internal Post
@@ -69,4 +69,4 @@ git clone https://github.com/FIPost/track-and-trace-ui.git
 Start contributing [<ins>now</ins>](https://github.com/FIPost/docs/blob/master/CONTRIBUTING.md) ! 
 
 ## Contact Us ✉️ 
-Questions? [<ins>Contact us here </ins>](https://github.com/FIPost/docs/blob/contributing/CONTACT.md) !
+Questions? [<ins>Contact us here </ins>](https://github.com/FIPost/docs/blob/master/CONTACT.md) !
