@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: locationservice
-        image: fipost/location-service:0.0.1.5-beta
+        image: fipost/location-service:0.0.5
         ports:
         - containerPort: 5002

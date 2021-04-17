@@ -8,7 +8,7 @@ spec:
   type: NodePort
   ports:
   - port: 8123
-    nodePort: 30000
+    nodePort: 30010
     protocol: TCP
   selector:
     run: gateway
@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: gateway
-        image: fipost/api-gateway:0.0.1.2
+        image: fipost/api-gateway:0.0.5.1
         ports:
         - containerPort: 8123

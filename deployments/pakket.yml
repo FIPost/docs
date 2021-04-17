@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: pakketservice
-        image: fipost/pakketservice:0.0.4
+        image: fipost/pakketservice:0.0.5
         ports:
         - containerPort: 5001

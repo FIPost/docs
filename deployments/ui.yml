@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: pakketservice
-        image: fipost/ui:0.0.4
+        image: fipost/ui:0.0.5.1
         ports:
         - containerPort: 80
