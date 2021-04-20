@@ -1,0 +1,34 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pakketservice-svc
+  labels:
+    run: pakketservice-svc
+spec:
+  type: NodePort
+  ports:
+  - port: 5001
+    nodePort: 30001
+    protocol: TCP
+  selector:
+    run: pakketservice
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pakketservice
+spec:
+  selector:
+    matchLabels:
+      run: pakketservice
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: pakketservice
+    spec:
+      containers:
+      - name: pakketservice
+        image: fipost/pakketservice:0.0.5
+        ports:
+        - containerPort: 5001
