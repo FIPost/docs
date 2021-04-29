@@ -1,13 +1,17 @@
 cd pakketservice
-docker-compose up -d --build
-cd ..
-
-cd api-gateway
-docker-compose up -d --build
+docker-compose up -d
 cd ..
 
 cd locatieservice
-docker-compose up -d --build
+docker-compose up -d
+cd ..
+
+cd personeel-service
+docker-compose up -d
+cd ..
+
+cd api-gateway
+docker-compose up -d
 cd ..
 
 cd ui
