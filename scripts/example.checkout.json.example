@@ -1,0 +1,26 @@
+[
+  {
+    "name": "docs",
+    "branch": "master"
+  },
+  {
+    "name": "api-gateway",
+    "branch": "develop"
+  },
+  {
+    "name": "personeel-service",
+    "branch": "developer"
+  },
+  {
+    "name": "pakketservice",
+    "branch": "master"
+  },
+  {
+    "name": "locatieservice",
+    "branch": "developer"
+  },
+  {
+    "name": "ui",
+    "branch": "developer"
+  }
+]

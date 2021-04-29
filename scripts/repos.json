@@ -1,0 +1,27 @@
+[
+  {
+    "name": "docs",
+    "remote": "https://github.com/FIPost/docs.git",
+  },
+  {
+    "name": "api-gateway",
+    "remote": "https://github.com/FIPost/api-gateway.git",
+  },
+  {
+    "name": "personeel-service",
+    "remote": "https://github.com/FIPost/personeel-service",
+  },
+  {
+    "name": "pakketservice",
+    "remote": "https://github.com/FIPost/pakketservice.git",
+  },
+  {
+    "name": "locatieservice",
+    "remote": "https://github.com/FIPost/locatieservice.git",
+    "branch": ""
+  },
+  {
+    "name": "ui",
+    "remote": "https://github.com/FIPost/ui.git",
+  }
+]
