@@ -5,6 +5,7 @@ metadata:
   labels:
     run: pakketservice-svc
 spec:
+  type: NodePort
   ports:
   - port: 5001
     protocol: TCP
