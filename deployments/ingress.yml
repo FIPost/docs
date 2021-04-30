@@ -2,14 +2,50 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: http-ingress
+  annotations:
 spec:
+  tls:
+  - hosts:
+      - www.fipost.nl
+    secretName: fipost2
   rules:
-  - http:
+  - host: www.fipost.nl 
+    http:
       paths:
-      - path: /
-        pathType: Prefix
+      - pathType: Prefix
+        path: /
         backend:
           service:
             name: ui-svc
             port:
               number: 80
+  - host: gateway.fipost.nl
+    http:
+      paths:
+      - pathType: Prefix
+        path: /
+        backend:
+          service:
+            name: gateway-svc
+            port:
+              number: 8123
+  - host: locations.fipost.nl
+    http:
+      paths:
+      - pathType: Prefix
+        path: /
+        backend:
+          service:
+            name: locationservice-svc
+            port:
+              number: 5002
+  - host: packages.fipost.nl
+    http:
+      paths:
+      - pathType: Prefix
+        path: /
+        backend:
+          service:
+            name: pakketservice-svc
+            port:
+              number: 5001

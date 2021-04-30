@@ -5,10 +5,8 @@ metadata:
   labels:
     run: locationservice-svc
 spec:
-  type: NodePort
   ports:
   - port: 5002
-    nodePort: 30002
     protocol: TCP
   selector:
     run: locationservice
@@ -21,7 +19,7 @@ spec:
   selector:
     matchLabels:
       run: locationservice
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:

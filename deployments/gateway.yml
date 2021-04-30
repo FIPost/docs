@@ -5,10 +5,8 @@ metadata:
   labels:
     run: gateway-svc
 spec:
-  type: NodePort
   ports:
   - port: 8123
-    nodePort: 30010
     protocol: TCP
   selector:
     run: gateway
@@ -21,7 +19,7 @@ spec:
   selector:
     matchLabels:
       run: gateway
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
@@ -29,6 +27,6 @@ spec:
     spec:
       containers:
       - name: gateway
-        image: fipost/api-gateway:0.0.5.1
+        image: fipost/api-gateway:0.0.5.2
         ports:
         - containerPort: 8123

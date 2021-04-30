@@ -5,10 +5,8 @@ metadata:
   labels:
     run: pakketservice-svc
 spec:
-  type: NodePort
   ports:
   - port: 5001
-    nodePort: 30001
     protocol: TCP
   selector:
     run: pakketservice
@@ -21,7 +19,7 @@ spec:
   selector:
     matchLabels:
       run: pakketservice
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
