@@ -1,0 +1,46 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: employee-svc
+  labels:
+    run: employee-svc
+spec:
+  ports:
+  - port: 5003
+    protocol: TCP
+  selector:
+    run: employee
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employee
+spec:
+  selector:
+    matchLabels:
+      run: employee
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: employee
+    spec:
+      containers:
+      - name: employee
+        image: fipost/employee-service:0.0.6.1
+        ports:
+        - containerPort: 5003
+      - name: liveness
+        image: k8s.gcr.io/liveness
+        args:
+          - /server
+        livenessProbe:
+          httpGet:
+            path: /api/persons/health
+            port: 5003
+            httpHeaders:
+            - name: Custom-Header
+              value: Awesome
+          initialDelaySeconds: 15
+          periodSeconds: 15
+
