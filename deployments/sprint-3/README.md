@@ -90,7 +90,7 @@ kubectl create secret tls fipost2 \
   --key=privkey.pem
 ```
 
-## Finished
+## 5 | Finished
 Run the final command to start the service.
 ```sh
 kubectl apply -f .
