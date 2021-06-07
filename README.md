@@ -30,12 +30,14 @@ This project is designed with a microservices architecture. This allows us to sc
 Reason for this change is to encourage open source contributions.
 
 ### Repositories
-- [ui](https://github.com/I418126/ipost-userservice)
-- [track-and-trace-ui ](https://github.com/I418126/ipost-personeelsservice)
-- [gateway](https://github.com/I418126/ipost-locatieservice)
-- [pakketservice](https://github.com/I418126/ipost-pakketservice)
-- [locatieservice](https://github.com/I418126/ipost-ui)
-- [docs)](https://github.com/I418126/ipost-track-and-trace-ui)
+- [ui](https://github.com/FIPost/ui)
+- [track-and-trace-ui ](https://github.com/FIPost/track-and-trace-ui)
+- [gateway](https://github.com/FIPost/api-gateway)
+- [pakketservice](https://github.com/FIPost/pakketservice)
+- [locatieservice](https://github.com/FIPost/locatieservice)
+- [personeelservice](https://github.com/FIPost/personeel-service)
+- [mailservice](https://github.com/FIPost/MailService)
+- [docs)](https://github.com/FIPost/docs)
 
 #### Architectural Styles
 - Architectural Styles
