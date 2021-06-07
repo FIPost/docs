@@ -37,7 +37,7 @@ Reason for this change is to encourage open source contributions.
 - [locatieservice](https://github.com/FIPost/locatieservice)
 - [personeelservice](https://github.com/FIPost/personeel-service)
 - [mailservice](https://github.com/FIPost/MailService)
-- [docs)](https://github.com/FIPost/docs)
+- [docs](https://github.com/FIPost/docs)
 
 #### Architectural Styles
 - Architectural Styles
