@@ -27,17 +27,7 @@ spec:
     spec:
       containers:
       - name: gateway
-        image: fipost/api-gateway:0.0.7
+        image: fipost/api-gateway:0.0.7.1
         ports:
         - containerPort: 8123
-      - name: liveness
-        image: k8s.gcr.io/liveness
-        args:
-          - /server
-        livenessProbe:
-          httpGet:
-            path: /api/health
-            port: 8123
-          initialDelaySeconds: 15
-          periodSeconds: 15
 

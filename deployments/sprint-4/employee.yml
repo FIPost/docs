@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: employee
-        image: fipost/employee-service:0.0.7
+        image: fipost/employee-service:0.0.7.1
         ports:
         - containerPort: 5003
       - name: liveness
@@ -38,9 +38,6 @@ spec:
           httpGet:
             path: /api/persons/health
             port: 5003
-            httpHeaders:
-            - name: Custom-Header
-              value: Awesome
           initialDelaySeconds: 15
           periodSeconds: 15
 

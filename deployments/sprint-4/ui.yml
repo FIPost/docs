@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: ui
-        image: fipost/ui:0.0.7
+        image: fipost/ui:0.0.7.7
         ports:
         - containerPort: 80

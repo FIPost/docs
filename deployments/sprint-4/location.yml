@@ -27,19 +27,6 @@ spec:
     spec:
       containers:
       - name: locationservice
-        image: fipost/location-service:0.0.7
+        image: fipost/location-service:0.0.7.1
         ports:
         - containerPort: 5002
-      - name: liveness
-        image: k8s.gcr.io/liveness
-        args:
-          - /server
-        livenessProbe:
-          httpGet:
-            path: api/city/health
-            port: 5002
-            httpHeaders:
-            - name: Custom-Header
-              value: Awesome
-          initialDelaySeconds: 15
-          periodSeconds: 15

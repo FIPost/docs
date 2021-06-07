@@ -27,19 +27,6 @@ spec:
     spec:
       containers:
       - name: pakketservice
-        image: fipost/pakketservice:0.0.7
+        image: fipost/pakketservice:0.0.7.1
         ports:
         - containerPort: 5001
-      - name: liveness
-        image: k8s.gcr.io/liveness
-        args:
-          - /server
-        livenessProbe:
-          httpGet:
-            path: /api/packages/health
-            port: 5001
-            httpHeaders:
-            - name: Custom-Header
-              value: Awesome
-          initialDelaySeconds: 15
-          periodSeconds: 15
