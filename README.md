@@ -47,9 +47,8 @@ Reason for this change is to encourage open source contributions.
 
 #### Languages & Frameworks used to build
 **Back-End**
-- Target Framework: NET50 (Only supported by VS16.10 and higher!!)
+- Target Framework: .NET Core 3.1 
 - Language: C#
-- Build with: Visual studio 16.10
 
 **Front-End**
 - VueJS - TypeScript, JavaScript, SCSS, HTML
