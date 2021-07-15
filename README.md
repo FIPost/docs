@@ -45,8 +45,13 @@ Reason for this change is to encourage open source contributions.
 - Event Streaming
 - Serverless
 
-#### Languages & Frameworks
-- .NET CORE - C#
+#### Languages & Frameworks used to build
+**Back-End**
+- Target Framework: NET50 (Only supported by VS16.10 and higher!!)
+- Language: C#
+- Build with: Visual studio 16.10
+
+**Front-End**
 - VueJS - TypeScript, JavaScript, SCSS, HTML
 
 #### Deployment
